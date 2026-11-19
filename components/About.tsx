@@ -115,7 +115,7 @@ export default function About() {
             </p>
 
             <p className="about-bio-para">
-              I enjoy turning complex ideas and designs into reality using modern technologies and best practices. Having delivered <strong>14+ live production platforms</strong> (including travel booking systems, SaaS CRMs, and high-converting agency platforms), I focus on sub-second load times, pixel-perfect responsiveness, and clean code.
+              I enjoy turning complex ideas and designs into reality using modern technologies and best practices. Having delivered <strong>100+ live production platforms</strong> (including travel booking systems, SaaS CRMs, and high-converting agency platforms), I focus on sub-second load times, pixel-perfect responsiveness, and clean code.
             </p>
 
             <div className="about-story-actions">

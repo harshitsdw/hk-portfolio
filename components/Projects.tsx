@@ -39,7 +39,7 @@ export default function Projects() {
               <span className="gradient-shimmer">Every Project Live &amp; Verified.</span>
             </h2>
             <p className="section-ultra-subtitle">
-              Explore 14+ live web platforms, travel booking engines, enterprise CRM systems, and high-converting landing pages I&apos;ve built and deployed.
+              Explore 100+ live web platforms, travel booking engines, enterprise CRM systems, and high-converting landing pages I&apos;ve built and deployed.
             </p>
           </div>
 
@@ -178,7 +178,7 @@ export default function Projects() {
             <IconSparkles className="cta-sparkle-svg" />
             <div>
               <h3>Have a custom project with specific tech requirements?</h3>
-              <p>With 14+ live production deliveries under my belt, I can take your project from design to high-speed deployment.</p>
+              <p>With 100+ live production deliveries under my belt, I can take your project from design to high-speed deployment.</p>
             </div>
           </div>
           <a href="#contact" className="btn-primary-glow">

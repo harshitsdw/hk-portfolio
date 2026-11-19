@@ -2,7 +2,7 @@
 
 An ultra-modern, client-ready personal portfolio & frontend engineering showcase built with **Next.js 15 App Router**, **React 19**, and **TypeScript**.
 
-Featuring **14+ live verified production projects**, interactive category filters, direct WhatsApp and email lead funnels, and a seamless **Dark / Light Theme Switcher** — fully optimized and 100% responsive across all mobile, tablet, and desktop screens.
+Featuring **100+ live verified production projects**, interactive category filters, direct WhatsApp and email lead funnels, and a seamless **Dark / Light Theme Switcher** — fully optimized and 100% responsive across all mobile, tablet, and desktop screens.
 
 ---
 

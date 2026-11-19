@@ -79,14 +79,14 @@ export const profile: Profile = {
   role: "Frontend Developer",
   headline: "Building Scalable Solutions with Clean Code & Modern Tech",
   subheadline: "I build modern, high-speed, and responsive web applications with React.js, Next.js 15, and TypeScript. Turning thoughtful designs into pixel-perfect digital experiences.",
-  summary: "Frontend Developer with 3+ years of hands-on experience building scalable, accessible, and high-converting web applications. Proven track record delivering 14+ live production projects across travel booking platforms, CRM & ERP management systems, media production agencies, and conversion-focused landing pages.",
+  summary: "Frontend Developer with 3+ years of hands-on experience building scalable, accessible, and high-converting web applications. Proven track record delivering 100+ live production projects across travel booking platforms, CRM & ERP management systems, media production agencies, and conversion-focused landing pages.",
   email: "i.harshitdw@gmail.com",
   phone: "+91 8219927740",
   whatsapp: "https://wa.me/918219927740?text=Hi%20Harshit,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.",
   location: "India (Open to Global Remote Work)",
   availability: "Available for Projects & Full-time Roles",
   experienceYears: "3+",
-  projectsCount: "14+",
+  projectsCount: "100+",
   clientsCount: "20+",
   technologiesCount: "12+",
   linkedin: "https://www.linkedin.com/in/harshit-kumar-13a159337/",
@@ -98,14 +98,14 @@ export const profile: Profile = {
 
 export const metrics: Metric[] = [
   { value: "3+", label: "Years Experience", description: "Delivering modern frontend solutions" },
-  { value: "14+", label: "Live Production Websites", description: "All deployed & actively serving clients" },
+  { value: "100+", label: "Live Production Websites", description: "All deployed & actively serving clients" },
   { value: "99+", label: "Lighthouse Performance", description: "Focused on speed, SEO and accessibility" },
   { value: "100%", label: "Responsive Design", description: "Flawless on mobile, tablet & desktop" }
 ];
 
 export const whyChooseMe = [
   {
-    title: "14+ Live Deployments",
+    title: "100+ Live Deployments",
     desc: "Proven track record with real client websites and enterprise CRM systems in production."
   },
   {
@@ -374,7 +374,7 @@ export const experience: Experience[] = [
     badge: "Current Role",
     description: "Leading frontend architecture and building mission-critical client projects spanning travel portals, CRM platforms, and high-converting marketing solutions.",
     points: [
-      "Architected and deployed 14+ scalable client platforms including ZoyoTrip, Travel Fusion CRM, and White Oak Pictures.",
+      "Architected and deployed 100+ scalable client platforms including ZoyoTrip, Travel Fusion CRM, and White Oak Pictures.",
       "Engineered responsive, SEO-optimized web interfaces using Next.js 15 App Router, React 19, and TypeScript.",
       "Collaborated closely with design teams to translate Figma design systems into pixel-perfect, reusable component libraries.",
       "Integrated secure REST APIs, implemented optimized data caching, and maintained Google Lighthouse scores above 95."

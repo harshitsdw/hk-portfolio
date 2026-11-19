@@ -45,7 +45,7 @@ export default function Footer() {
               </div>
             </a>
             <p className="footer-brand-lead">
-              Building scalable, high-performance web applications with React.js, Next.js, and TypeScript. Over 14+ live production deliveries across travel, CRM, and media agencies.
+              Building scalable, high-performance web applications with React.js, Next.js, and TypeScript. Over 100+ live production deliveries across travel, CRM, and media agencies.
             </p>
           </div>
 
