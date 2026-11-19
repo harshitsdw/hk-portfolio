@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "Frontend Engineer"
   ],
   authors: [{ name: "Harshit Kumar", url: "https://github.com/webgashwatechnologies2-alt" }],
+  icons: {
+    icon: "/logo.jpg"
+  },
   openGraph: {
     title: "Harshit Kumar | Frontend Developer & UI Specialist",
     description: "Building modern, high-performance web applications that drive real business results with React.js, Next.js & TypeScript.",
