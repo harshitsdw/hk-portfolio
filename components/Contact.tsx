@@ -20,7 +20,7 @@ export default function Contact() {
     name: "",
     email: "",
     projectType: "Next.js Web Application",
-    budget: "$1k - $3k",
+    pricing: "On Request",
     message: ""
   });
 
@@ -39,7 +39,7 @@ export default function Contact() {
 
     const subject = encodeURIComponent(`Project Inquiry: ${formData.projectType} from ${formData.name}`);
     const body = encodeURIComponent(
-      `Hello Harshit,\n\nName: ${formData.name} (${formData.email})\nService: ${formData.projectType}\nEstimated Scope/Budget: ${formData.budget}\n\nProject Overview:\n${formData.message}`
+      `Hello Harshit,\n\nName: ${formData.name} (${formData.email})\nService: ${formData.projectType}\nProject Pricing: ${formData.pricing}\n\nProject Overview:\n${formData.message}`
     );
 
     window.open(`mailto:${profile.email}?subject=${subject}&body=${body}`, "_blank");
@@ -131,7 +131,7 @@ export default function Contact() {
             </div>
 
             {/* Location & Remote */}
-            <div className="channel-interactive-box">
+            <div className="channel-interactive-box channel-location-box">
               <div className="channel-icon-pill">
                 <IconSparkles className="w-5 h-5" />
               </div>
@@ -241,18 +241,8 @@ export default function Contact() {
                   </div>
 
                   <div className="form-field-unit">
-                    <label htmlFor="budget">Estimated Scope / Budget</label>
-                    <select
-                      id="budget"
-                      value={formData.budget}
-                      onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-                    >
-                      <option value="Less than $1k">&lt; $1,000</option>
-                      <option value="$1k - $3k">$1,000 – $3,000</option>
-                      <option value="$3k - $5k">$3,000 – $5,000</option>
-                      <option value="$5k+">$5,000+</option>
-                      <option value="Full-time Monthly Salary">Full-time Monthly Salary</option>
-                    </select>
+                    <label htmlFor="pricing">Project Pricing</label>
+                    <input id="pricing" type="text" value={formData.pricing} readOnly />
                   </div>
                 </div>
 
