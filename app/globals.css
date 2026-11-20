@@ -1788,6 +1788,8 @@ img {
 }
 
 .browser-topbar-controls {
+  position: relative;
+  z-index: 3;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1853,12 +1855,38 @@ img {
   padding: 14px 6px 4px;
 }
 
+.project-preview-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  opacity: 0.9;
+  filter: brightness(1.08) contrast(1.05);
+  transition: transform 500ms ease, opacity 300ms ease;
+}
+
+.project-preview-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(10, 14, 27, 0.42) 0%, rgba(10, 14, 27, 0.2) 48%, rgba(10, 14, 27, 0.06) 100%);
+  pointer-events: none;
+}
+
+.project-ultra-card:hover .project-preview-image {
+  transform: scale(1.025);
+  opacity: 1;
+}
+
 .screen-caption-area {
   display: flex;
   flex-direction: column;
   gap: 4px;
   min-width: 0;
   max-width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .screen-type-tag {

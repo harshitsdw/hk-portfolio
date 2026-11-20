@@ -37,6 +37,7 @@ export interface Project {
   highlight: string;
   live: string;
   code: string;
+  image?: string;
   featured: boolean;
   accent: string;
 }
@@ -189,6 +190,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs"],
     description: "A premier travel and tour booking platform offering seamless holiday packages discovery, interactive itineraries, dynamic inquiry capture, and high-converting booking journeys.",
     highlight: "Live Production · Tour Discovery & Booking · Mobile-First UI",
+    image: "/images/projects/zoyotrips.png",
     live: "https://zoyotrip.in",
     code: "",
     featured: true,
@@ -202,7 +204,8 @@ export const projects: Project[] = [
     stack: ["React.js", "Modern CSS", "Showreel", "Responsive Design"],
     description: "A modern, cinematic digital presence for an elite film and media production company, featuring video showreels, responsive creative layouts, and structured portfolio showcases.",
     highlight: "Live Production · Cinematic Video Showreel · High-End Creative UI",
-    live: "https://whiteoakpictures.in/",
+    image: "/images/projects/whiteoakpictures.png",
+    live: "https://whiteoakpictures.in",
     code: "",
     featured: true,
     accent: "from-rose-500/20 via-pink-500/10 to-transparent"
@@ -215,7 +218,8 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind UI", "SEO Engine"],
     description: "Official agency web portal for Gashwa Technologies presenting software development services, case studies, technology stacks, and client consultation funnels.",
     highlight: "Live Production · Agency Showcase · 95+ Lighthouse Score",
-    live: "https://gashwatechnologies.org/",
+    image: "/images/projects/gashwarechnologies.png",
+    live: "https://gashwatechnologies.org",
     code: "",
     featured: true,
     accent: "from-cyan-500/20 via-sky-500/10 to-transparent"
@@ -228,6 +232,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     description: "A clean, modern holiday and destination booking portal built to showcase curated international and domestic tour packages with structured inquiry forms.",
     highlight: "Live Production · Curated Itineraries · Fast Page Loads",
+    image: "/images/projects/vistatravels.png",
     live: "https://vistatravelss.com",
     code: "",
     featured: true,
@@ -241,6 +246,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "TypeScript", "Redux", "Data Tables"],
     description: "A centralized cloud CRM tailored for travel agency operations—managing inbound client enquiries, quotation pipelines, booking status workflows, and day-to-day team coordination.",
     highlight: "Live Production · Lead Pipelines & Quotation Builder · Data Tables",
+    image: "/images/projects/travelfusioncrm.png",
     live: "https://travelfusioncrm.com",
     code: "",
     featured: true,
@@ -254,6 +260,7 @@ export const projects: Project[] = [
     stack: ["React.js", "Bootstrap", "REST APIs", "CRUD Operations"],
     description: "An internal enterprise management dashboard facilitating employee records management, role-based access, attendance tracking, and administrative controls.",
     highlight: "Live Production · Multi-Role Admin Panel · Complex Form Validations",
+    image: "/images/projects/employymanagement.png",
     live: "https://royalblue-dove-144713.hostingersite.com",
     code: "",
     featured: true,
@@ -267,7 +274,8 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "Modern CSS", "Mobile UX"],
     description: "An immersive adventure travel website designed for mountain lovers and trek enthusiasts—featuring high-altitude trekking routes, itinerary guides, and booking inquiries.",
     highlight: "Live Production · Mountain Expedition Guides · Responsive UX",
-    live: "https://highlinehimalayas.com/",
+    image: "/images/projects/highlinehimalayas.png",
+    live: "https://highlinehimalayas.com",
     code: "",
     featured: false,
     accent: "from-teal-500/20 via-emerald-500/10 to-transparent"
@@ -280,7 +288,8 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
     description: "A vibrant pan-India tour portal dedicated to exploring heritage, wildlife, beach, and hill station packages across India with intuitive booking filters.",
     highlight: "Live Production · Domestic Tour Discovery · High-Conversion UX",
-    live: "https://indiaghummo.com/",
+    image: "/images/projects/indiaghummoo.png",
+    live: "https://indiaghummo.com",
     code: "",
     featured: false,
     accent: "from-orange-500/20 via-amber-500/10 to-transparent"
@@ -293,6 +302,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "Responsive UI"],
     description: "A sophisticated bespoke travel website delivering customized vacation packages, honeymoon specials, and family holiday tours with transparent pricing.",
     highlight: "Live Production · Bespoke Holiday Booking · Modern Layout",
+    image: "/images/projects/samasttravel.png",
     live: "https://samasttravel.com",
     code: "",
     featured: false,
@@ -306,6 +316,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "SEO Architecture"],
     description: "A premium travel brand website showcasing curated international destinations, interactive day-by-day itineraries, and instant trip booking capture.",
     highlight: "Live Production · International Packages · SEO Optimized",
+    image: "/images/projects/horizonbound.png",
     live: "https://horizonboundtravels.com",
     code: "",
     featured: false,
@@ -319,6 +330,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "REST API", "Tailwind UI"],
     description: "An interactive holiday package discovery engine allowing travelers to filter packages by budget, duration, climate, and adventure type with real-time dynamic pricing previews.",
     highlight: "Live Production · Interactive Package Filtering · Modern Grid",
+    image: "/images/projects/dreamdestination.png",
     live: "https://dreamdestinationexplorer.com",
     code: "",
     featured: false,
@@ -332,6 +344,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "Responsive UI", "REST APIs"],
     description: "A dedicated holiday booking portal built to help families and groups explore seasonal tour packages, hotel bookings, and sightseeing packages seamlessly.",
     highlight: "Live Production · Seasonal Holiday Packages · Fast Inquiry Forms",
+    image: "/images/projects/lavanyaholidays.png",
     live: "https://lavanyaholiday.com",
     code: "",
     featured: false,
@@ -345,6 +358,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
     description: "An eco-friendly travel platform designed to connect nature enthusiasts with wildlife safaris, jungle trails, and sustainable travel experiences across breathtaking spots.",
     highlight: "Live Production · Eco-Tourism & Safaris · Clean Green UI",
+    image: "/images/projects/naturequesttravels.png",
     live: "https://naturequesttravels.com",
     code: "",
     featured: false,
@@ -359,6 +373,7 @@ export const projects: Project[] = [
     description: "A high-converting, responsive landing page crafted with modern visual aesthetics, clear value propositions, interactive feature sections, and optimized lead capture funnels.",
     highlight: "Live Production · Conversion-Optimized UX · Fluid Micro-Interactions",
     live: "https://darkturquoise-goshawk-683391.hostingersite.com",
+    image: "/images/projects/landingpage.png",
     code: "",
     featured: true,
     accent: "from-cyan-500/20 via-indigo-500/10 to-transparent"
@@ -371,6 +386,7 @@ export const projects: Project[] = [
     stack: ["Next.js", "React", "Responsive Design", "Media Galleries"],
     description: "A cinematic digital presence for a premium visual storytelling studio, showcasing podcast shoots, UGC campaigns, corporate films, hotel showcases, product photography, and social media production services.",
     highlight: "Live Production · Cinematic Portfolio · 500+ Projects Delivered",
+    image: "/images/projects/kavyaproduction.png",
     live: "https://kavyaproductions.com",
     code: "",
     featured: true,

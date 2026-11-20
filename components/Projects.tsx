@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { projects } from "@/data/portfolio";
 import { IconArrowUpRight, IconSparkles } from "./Icons";
@@ -90,6 +91,14 @@ export default function Projects() {
 
                 {/* Inner Screen Preview Graphic */}
                 <div className="browser-screen-inner">
+                  <Image
+                    className="project-preview-image"
+                    src={project.image || "/project-preview.png"}
+                    alt={`${project.name} project preview`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+                  />
+                  <div className="project-preview-overlay" />
                   <div className="screen-caption-area">
                     <span className="screen-type-tag">{project.type}</span>
                     <h3 className="screen-name-title">
