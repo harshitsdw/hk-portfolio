@@ -147,7 +147,7 @@ export default function About() {
             </div>
 
             <div className="about-stat-box">
-              <strong className="stat-count-number">15+</strong>
+              <strong className="stat-count-number">200+</strong>
               <span className="stat-count-label">Happy Clients</span>
             </div>
 

@@ -55,7 +55,7 @@ export default function Footer() {
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#skills">Skills</a>
-            <a href="#projects">Projects (14)</a>
+            <a href="#projects">Projects (15)</a>
             <a href="#experience">Experience</a>
             <a href="#testimonials">Testimonials</a>
             <a href="#contact">Contact</a>
@@ -78,6 +78,9 @@ export default function Footer() {
             </a>
             <a href="https://gashwatechnologies.org/" target="_blank" rel="noreferrer">
               <span>Gashwa Technologies</span> <IconArrowUpRight className="w-3 h-3" />
+            </a>
+            <a href="https://kavyaproductions.com" target="_blank" rel="noreferrer">
+              <span>Kavya Productions</span> <IconArrowUpRight className="w-3 h-3" />
             </a>
             <a href="https://samasttravel.com" target="_blank" rel="noreferrer">
               <span>Samast Travel</span> <IconArrowUpRight className="w-3 h-3" />

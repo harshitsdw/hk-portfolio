@@ -32,7 +32,7 @@ export default function Projects() {
           <div>
             <div className="section-badge-pill">
               <span className="badge-dot" />
-              <span>SELECTED PORTFOLIO &bull; 14 LIVE WEBSITES</span>
+              <span>SELECTED PORTFOLIO &bull; {projects.length} LIVE WEBSITES</span>
             </div>
             <h2 className="section-ultra-title">
               Proven Production Work.<br />
@@ -85,7 +85,7 @@ export default function Projects() {
                     <span>{project.live.replace("https://", "").replace("http://", "").replace(/\/$/, "")}</span>
                     <IconArrowUpRight className="w-2.5 h-2.5" />
                   </a>
-                  <span className="project-num-tag">{project.number} / 14</span>
+                  <span className="project-num-tag">{project.number} / {projects.length}</span>
                 </div>
 
                 {/* Inner Screen Preview Graphic */}

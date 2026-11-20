@@ -362,6 +362,19 @@ export const projects: Project[] = [
     code: "",
     featured: true,
     accent: "from-cyan-500/20 via-indigo-500/10 to-transparent"
+  },
+  {
+    number: "15",
+    name: "Kavya Productions",
+    type: "Premium Video & Photo Production Studio",
+    category: "web",
+    stack: ["Next.js", "React", "Responsive Design", "Media Galleries"],
+    description: "A cinematic digital presence for a premium visual storytelling studio, showcasing podcast shoots, UGC campaigns, corporate films, hotel showcases, product photography, and social media production services.",
+    highlight: "Live Production · Cinematic Portfolio · 500+ Projects Delivered",
+    live: "https://kavyaproductions.com",
+    code: "",
+    featured: true,
+    accent: "from-fuchsia-500/20 via-violet-500/10 to-transparent"
   }
 ];
 
